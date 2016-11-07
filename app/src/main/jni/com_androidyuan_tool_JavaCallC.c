@@ -14,6 +14,8 @@ JNIEXPORT jstring JNICALL Java_com_androidyuan_tool_JavaCallC_getString (JNIEnv 
      return jString;
 
 }
+
+
 JNIEXPORT void JNICALL Java_com_androidyuan_tool_JavaCallC_setStreamListener (JNIEnv *env, jclass _jc, jobject _jobj)
 {
 	
